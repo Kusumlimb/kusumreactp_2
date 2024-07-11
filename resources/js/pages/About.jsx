@@ -8,7 +8,10 @@ const About = () => {
         
         <div className="about-container">
       <h1>About Me</h1>
-      <p>Information about yourself.</p>
+      <p>I am Kusum Limbu. I am currently pursuing my bachelor's degree in Itahari International college. 
+        The name of my degree is Bsc Hons Computing. This degree  is actually provided by the London Metropolitan university of London.
+        My hobbies are playing volleyball and performing.
+      </p>
     </div>
         </HomeLayout>
     );
