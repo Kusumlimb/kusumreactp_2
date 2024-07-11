@@ -1,0 +1,73 @@
+/* components/Common/Heros.css */
+
+.hero {
+  height: 100vh;
+  background: url('/path-to-your-background-image.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 550px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.8); /* Light, semi-transparent background */
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333; /* Dark text for contrast */
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #555; /* Slightly darker text for readability */
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: grey; /* Dark button color */
+  text-decoration: none;
+  border-radius: 30px; /* Pill-shaped button */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Shadow for button */
+}
+
+.hero-button:hover {
+  background-color: #555; /* Lighter shade on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.hero-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Focus outline for accessibility */
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
